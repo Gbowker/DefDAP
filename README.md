@@ -9,7 +9,7 @@ A set of scripts for dealing with EBSD and HRDIC data.
   <a href="#license">License</a>
 
 
-##How to install
+## How to install
 
 - Download and install Anaconda from https://repo.continuum.io/archive/ (version 4.4 has been tested)
 
@@ -17,12 +17,12 @@ A set of scripts for dealing with EBSD and HRDIC data.
 
 - Open a terminal in that directory and run `pip install .` (or `pip install -e .` if you want to work on the scripts)
 
-##How to use
+## How to use
 
 - To start the example notebook, use the command `jupyter notebook` and click the notebook (.ipynb file)
 
 
-##Credits
+## Credits
 
 The software uses the following open source packages:
 
@@ -38,6 +38,6 @@ The software uses the following open source packages:
 - [IPython](https://ipython.org/)
 - [jupyter](https://jupyter.org/)
 
-##License
+## License
 
 MIT license
