@@ -5,6 +5,7 @@ A set of scripts for dealing with EBSD and HRDIC data.
 
   <a href="#how-to-install">How to install</a> •
   <a href="#how-to-use">How To Use</a> •
+  <a href="#documentation">Documentation</a> •
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 
@@ -21,6 +22,9 @@ A set of scripts for dealing with EBSD and HRDIC data.
 
 - To start the example notebook, use the command `jupyter notebook` and click the notebook (.ipynb file)
 
+## Documentation
+
+- For more help, see the documentation under /docs/html
 
 ## Credits
 

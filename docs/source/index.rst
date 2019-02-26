@@ -1,7 +1,7 @@
 DefDAP documentation
 ==================================
 
-DefDAP is a Python package which is designed to allow combined analysis of EBSD and DIC data together.
+DefDAP is a Python package which is designed to allow combined analysis of EBSD and DIC data.
 
 .. toctree::
    :maxdepth: 2
