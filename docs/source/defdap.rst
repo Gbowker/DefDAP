@@ -1,11 +1,11 @@
-DefDAP API documentation
+API documentation
 ==========================
 
-defdap.base module
-------------------
+defdap.hrdic module
+-------------------
 
-.. automodule:: defdap.base
-    :members:
+.. automodule:: defdap.hrdic
+    :members: Map, Grain
     :undoc-members:
     :show-inheritance:
 
@@ -13,6 +13,22 @@ defdap.ebsd module
 ------------------
 
 .. automodule:: defdap.ebsd
+    :members: Map, Grain, Linker
+    :undoc-members:
+    :show-inheritance:
+
+defdap.quat module
+------------------
+
+.. automodule:: defdap.quat
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+defdap.base module
+------------------
+
+.. automodule:: defdap.base
     :members:
     :undoc-members:
     :show-inheritance:
@@ -25,18 +41,3 @@ defdap.fepx module
     :undoc-members:
     :show-inheritance:
 
-defdap.hrdic module
--------------------
-
-.. automodule:: defdap.hrdic
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-defdap.quat module
-------------------
-
-.. automodule:: defdap.quat
-    :members:
-    :undoc-members:
-    :show-inheritance:

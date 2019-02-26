@@ -1,4 +1,4 @@
-Introduction to DefDAP
+Introduction
 **************************
 
 This documentation gives information about the latest version of DefDAP.

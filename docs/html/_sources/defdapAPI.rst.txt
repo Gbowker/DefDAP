@@ -1,4 +1,4 @@
-DefDAP API documentation
+API documentation
 =======================================
 
 Subpackages

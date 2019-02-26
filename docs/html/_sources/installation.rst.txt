@@ -1,4 +1,4 @@
-DefDAP Installation
+Installation
 ===========================
 
 To use DefDAP it must be installed locally as a python module. From the root DefDAP folder execute the command. ::
