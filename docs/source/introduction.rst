@@ -5,7 +5,6 @@ This documentation gives information about the latest version of DefDAP.
 
 The DefDAP is an algorithm for analysing DIC and EBSD data simultaneously. It was developed by Michael Atkinson and Rhys Thomas during their PhDs at the Univeristy of Manchester.
 
-
 Citation
 ===========
 
