@@ -107,8 +107,6 @@ class Map(base.Map):
         print("\rLoading EBSD data...", end="")
 
         self.crystalSym = None
-        self.xDim = None
-        self.yDim = None
         self.stepSize = None
         self.eulerAngleArray = None
         self.bandContrastArray = None
@@ -531,7 +529,6 @@ class Map(base.Map):
 
         print("\rDone                                               ", end="")
 
-        return
 
     def findBoundaries(self, boundDef=10):
         """

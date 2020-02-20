@@ -92,7 +92,6 @@ class Map(base.Map):
 
         self.max_shear = np.sqrt((((self.f11 - self.f22) / 2.)**2) +
                                  ((self.f12 + self.f21) / 2.)**2)   # max shear component
-        self.mapshape = np.shape(self.max_shear)                    # map shape
 
         self.cropDists = np.array(((0, 0), (0, 0)), dtype=int)      # crop distances (default all zeros)
 
