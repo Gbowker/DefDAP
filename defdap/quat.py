@@ -160,7 +160,7 @@ class Quat(object):
     def _plotIPF(self, direction, symGroup, **kwargs):
         Quat.plotIPF([self], direction, symGroup, **kwargs)
 
-    # overload * operator for quaterion product and vector product
+    # overload * operator for quaternion product and vector product
     def __mul__(self, right):
         if isinstance(right, type(self)):   # another quat
             newQuatCoef = np.zeros(4, dtype=float)
@@ -170,7 +170,7 @@ class Quat(object):
                                 right.quatCoef[0] * self.quatCoef[1:4] +
                                 np.cross(self.quatCoef[1:4], right.quatCoef[1:4]))
             return Quat(newQuatCoef)
-        raise TypeError()
+        raise TypeError("{:} - {:}".format(type(self), type(right)))
 
     # # overload % operator for dot product
     # def __mod__(self, right):
@@ -277,7 +277,7 @@ class Quat(object):
         if isinstance(right, type(self)):
             Dq = right * self.conjugate
             Dq = Dq.quatCoef
-            misOriAxis = (2 * Dq[1:4] * np.arccos(Dq[0])) / np.sqrt(1 - np.power(Dq[0], 2))
+            misOriAxis = (2 * Dq[1:4] * np.arccos(Dq[0])) / np.sqrt(1 - Dq[0]**2)
 
             return misOriAxis
         raise TypeError("Input must be a quaternion.")
